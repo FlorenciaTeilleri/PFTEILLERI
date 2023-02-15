@@ -111,10 +111,10 @@ height: 210px;
 }
 
 #tituloServicios{
+    display: flex;
     text-align: center;
     font-size: 50px;
     padding: 20px;
-    justify-content: center;
     color: white;
     font-family: 'Bodoni Moda', serif;
 }
@@ -137,26 +137,6 @@ height: 210px;
     height: 400px;
 }
 
-.sect1-servicios{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.sect2-servicios{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.sect3-servicios{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 
 
