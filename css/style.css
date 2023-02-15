@@ -28,7 +28,7 @@ height: 210px;
 }
 
 .bloque-uno__titulo{
-    font-family: 'Bodoni Moda', serif;;
+    font-family: 'Bodoni Moda', serif;
     font-size: 100px;
     color: white;
 }
@@ -44,6 +44,7 @@ height: 210px;
     display: flex;
     text-decoration: none;
 }
+
 
 .header__nav a{
     font-size: 25px;
