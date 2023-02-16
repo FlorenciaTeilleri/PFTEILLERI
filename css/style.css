@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Bodoni Moda', serif;
+    
 }
 
 /*   HEADER   */
@@ -98,51 +100,6 @@ height: 210px;
 }
 
 
-
-
-
-
-/*   MAIN SERVICIOS  */
-
-.main-servicios{
-    background-image: radial-gradient(circle, #E18AD4, #EEB1D5, #EFC7E5);
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-#tituloServicios{
-    display: flex;
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-    color: white;
-    font-family: 'Bodoni Moda', serif;
-}
-
-.main-servicios p{
-    padding: 20px;
-    width: 100%;
-    text-align:center;
-    font-size: 30px;
-    font-family:'Bodoni Moda', serif;
-    color: white;
-    font-weight: bold;
-
-}
-
-.main-servicios img{
-    border-radius:100px;
-    padding: 20px;
-    width: 370px;
-    height: 400px;
-}
-
-.main-servicios img:hover{
-    transform: translateY(-4px);
-    
-}
 
 
 
@@ -572,13 +529,96 @@ footer{
 }
 
 /*  MEDIA QUERY MOBILE  */
+
 @media (max-width: 576px){
 
+    header{
+        padding: 0%;
+        margin-top:auto;
+    }
+    
+button.navbar-toggler-collapsed{
+
+
+}
+
+.bloque-uno__logo{
+    width: 100px;
+    height: 100px;
+    }
+        
+.bloque-uno h2{
+    padding: 0%;
+    font-size: 30px;
+
+    }
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+
+img.imagenServicio{
+    padding: 0%;
+    width: 320px !important;
+
+}
+
 footer{
+
     flex-direction: column;
+
+}
+
+
+}
+
+/*   MAIN SERVICIOS  */
+
+.main-servicios{
+    background-image: radial-gradient(circle, #E18AD4, #EEB1D5, #EFC7E5);
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#tituloServicios{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.main-servicios p{
+    padding: 20px;
+    width: 100%;
+    text-align:center;
+    font-size: 30px;
+    font-family:'Bodoni Moda', serif;
+    color: white;
+    font-weight: bold;
+
+}
+.img-y-parrafo{
+    display: flex;
+    justify-content: center;
+}
+
+.main-servicios img{
+    border-radius:100px;
+    padding: 20px;
+    width: 370px;
+    height: 400px;
+}
+
+.main-servicios img:hover{
+    transform: translateY(-4px);
+    
 }
 
 
 
-}
+
 
