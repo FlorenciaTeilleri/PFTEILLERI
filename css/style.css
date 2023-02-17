@@ -46,7 +46,9 @@ height: 210px;
     display: flex;
     text-decoration: none;
 }
-
+.header__nav ul::marker{
+    marker: none;
+}
 
 .header__nav a{
     font-size: 25px;
@@ -58,7 +60,24 @@ height: 210px;
     text-decoration: none;
 }
 
+.navbar-toggler-icon{
+    filter: invert(87%) sepia(20%) saturate(2279%) hue-rotate(247deg) brightness(96%) contrast(82%);}
 
+.navbar-toggler{
+    color: white;
+}
+.bg-body-tertiary{
+    background-color:  pink !important ;
+}
+button.navbar-toggler{
+    border-radius: 100px;
+    border-color: white;
+}
+
+a.nav-link{
+    color: white;
+
+}
 
 
 
@@ -623,6 +642,7 @@ footer{
     transform: translateY(-4px);
     
 }
+
 
 
 
