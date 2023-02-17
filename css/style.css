@@ -27,7 +27,7 @@ div{
     li{
         list-style-type: none;
     }
-    
+
 .bloque-uno__logo{
 width: 210px;
 height: 210px;
@@ -120,12 +120,51 @@ a.nav-link{
 }
 
 
+/*   MAIN SERVICIOS  */
+
+.main-servicios{
+    background-image: radial-gradient(circle, #E18AD4, #EEB1D5, #EFC7E5);
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#tituloServicios{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.main-servicios p{
+    padding: 20px;
+    width: 100%;
+    text-align:center;
+    font-size: 30px;
+    font-family:'Bodoni Moda', serif;
+    color: white;
+    font-weight: bold;
+
+}
+.img-y-parrafo{
+    display: flex;
+    justify-content: center;
+}
 
 
+.main-servicios img{
+    border-radius:100px;
+    padding: 20px;
+    width: 370px;
+    height: 400px;
+}
 
-
-
-
+.main-servicios img:hover{
+    transform: translateY(-6px);
+}
 
 
 
@@ -168,122 +207,8 @@ h4{
 
 .seccion-turnos__bloque1{
     display: flex;
+    flex-direction: row; /*cualquier cosa borrar esto*/
 }
-.seccion-turnos__bloque1 form{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 300px;
-    margin: 20px;
-}
-
-.seccion-turnos__bloque1 input{
-    margin: 10px;
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    padding: 5px 5px;
-    text-align:center;
-    font-size: 30px;
-    font-family:'Bodoni Moda', serif;
-    color:#F40076;
-    font-weight: bold;
-}
-
-#boton{
-    background-color:yellow;
-    color: red;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 12px 20px;
-    border: 8px solid #F40076;
-    border-radius: 10px;
-
-}
-
-#opcDesplegables{
-
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-    color: #F40076;
-    font-family: 'Bodoni Moda', serif;
-}
-
-#radioButtonTurnos{
-
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;   
-    justify-content: center;
-    color: #F40076;
-    font-family: 'Bodoni Moda', serif;
-}
-.seccion-turnos__bloque2{
-    display: flex;
-    padding: 0px 20px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.seccion-turnos__bloque2 ol{
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-    color: #F40076;
-    font-family: 'Bodoni Moda', serif;  
-}
-
-
-
-
-
-
-/*   MAIN TURNOS   */
-
-.main-turnos{
-    background-color: #EBA6A9;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-#tituloTurnos{
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-    color: white;
-    font-family: 'Bodoni Moda', serif;
-}
-
-.seccion-turnos{
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-h4{
-    text-align: justify;
-    font-size: 15px;
-    padding: 20px;
-    justify-content: center;
-    color: white;
-    font-family: 'Bodoni Moda', serif;
-
-}
-
-.seccion-turnos__bloque1{
-    display: flex;
-    flex-direction: row;
-    }
-
 .seccion-turnos__bloque1 form{
     display: flex;
     flex-direction: column;
@@ -343,12 +268,25 @@ h4{
     justify-content: center;
     width: 1300px;
 }
+
+
 h2{ 
     font-size: 30px;
     padding: 20px;
     color:white;
     font-family: 'Bodoni Moda', serif;
 }
+
+.seccion-turnos__bloque2 ol{
+    border: 8px solid #F40076;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    color: #F40076;
+    font-family: 'Bodoni Moda', serif;  
+}
+
 .seccion-turnos__bloque2 li{
     margin: 5px;
     text-align: center;
@@ -357,9 +295,6 @@ h2{
     color: white;
     font-family: 'Bodoni Moda', serif;  
 }
-
-
-
 
 
 /*     MAIN SOBRE NOSOTRAS     */
@@ -598,51 +533,6 @@ footer{
 
 }
 
-/*   MAIN SERVICIOS  */
-
-.main-servicios{
-    background-image: radial-gradient(circle, #E18AD4, #EEB1D5, #EFC7E5);
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-#tituloServicios{
-    display: flex;
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-    color: white;
-    font-family: 'Bodoni Moda', serif;
-}
-
-.main-servicios p{
-    padding: 20px;
-    width: 100%;
-    text-align:center;
-    font-size: 30px;
-    font-family:'Bodoni Moda', serif;
-    color: white;
-    font-weight: bold;
-
-}
-.img-y-parrafo{
-    display: flex;
-    justify-content: center;
-}
-
-
-.main-servicios img{
-    border-radius:100px;
-    padding: 20px;
-    width: 370px;
-    height: 400px;
-}
-
-.main-servicios img:hover{
-    transform: translateY(-6px);
-}
 
 
 
