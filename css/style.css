@@ -62,7 +62,8 @@ height: 210px;
 }
 
 .navbar-toggler-icon{
-    filter: invert(87%) sepia(20%) saturate(2279%) hue-rotate(247deg) brightness(96%) contrast(82%);}
+    filter: invert(87%) sepia(20%) saturate(2279%) hue-rotate(247deg) brightness(96%) contrast(82%);
+}
 
 .navbar-toggler{
     color: white;
@@ -362,20 +363,21 @@ h2{
     color:#F40076;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
-    border: 8px solid #F40076;
+    border: 4px solid #efc7e5;
     border-radius: 10px ;
     margin: 20px;
     }
     .columnas{
         padding: 20px;
     }
+
     textarea{
     font-size: 15px;
     padding: 20px;
     color:#F40076;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
-    border: 8px solid #F40076;
+    border: 4px solid #efc7e5;
     border-radius: 10px ;
     margin: 50px 20px 20px 20px;
     width: 600px;
@@ -389,8 +391,8 @@ h2{
     color: red;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 12px 20px;
-    border: 8px solid #F40076;
+    padding: 12px 10px;
+    border: 4px solid #efc7e5;
     border-radius: 10px;
     }
 
@@ -407,6 +409,10 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top:auto;
+}
+
+footer h5{
+    color: #F40076; 
 }
 
 .bloque{
@@ -477,6 +483,10 @@ header{
     padding: 0%;
     }
 
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+    }
+
 .bloque-uno__logo{
     width: 100px;
     height: 100px;
@@ -491,10 +501,6 @@ header{
     font-size: 20px !important;
     }
 
-.bg-body-tertiary{
-    --bs-bg-opacity: 0;
-    }
-
 .main-servicios img{
     padding: 0%;
     width: 320px !important;
@@ -502,7 +508,7 @@ header{
     }
 
 .main-servicios p{
-    padding: 0%;
+    padding: 10%;
     font-size: 15px !important;
     }
 
@@ -510,11 +516,21 @@ header{
     font-size: 20px;
     }
 
+#boton{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: 4px solid #efc7e5;
+    border-radius: 10px;
+    height: auto;
+    width: 150px;
+    }
+
 input{
     padding: 20px 40px !important;
     margin: 0%;
-    width: 250px !important;
-    height: 30px !important;
+    width: 250px ;
+    height: 30px ;
     }
 
 div.columnas{
@@ -523,39 +539,15 @@ div.columnas{
 
 textarea{
     padding: 0px;
-    width: 250px !important;
-    height: 300px !important;
+    width: 250px ;
+    height: 300px ;
     }
-
-#boton{
-
-    font-size: 15px;
-
-    padding: 15px;
-    border: 4px solid #F40076;
-    border-radius: 10px;
-    }
-
 
 footer{
     flex-direction: column;
     }
 
 }
-
-    
-        
-#boton{
-    display: inline;
-    justify-content: center;
-    background-color:yellow;
-    color: red;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 12px 20px;
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    }
 
 
 
