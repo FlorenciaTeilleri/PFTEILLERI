@@ -46,9 +46,6 @@ height: 210px;
     display: flex;
     text-decoration: none;
 }
-.header__nav ul::marker{
-    marker: none;
-}
 
 .header__nav a{
     font-size: 25px;
@@ -503,6 +500,7 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    color: white;
 }
 
 .texto-redes{
@@ -511,6 +509,7 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
     margin: 20px 15px 10px 15px; 
+    color: white;
 }
 
 .redes-sociales__logoWsp{
@@ -533,6 +532,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
+    color: white;
 }
 
 .mapa-direccion{
@@ -540,6 +540,7 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
     align-items:center;
+    color: white;
 }
 
 .mapa-direccion iframe{
@@ -588,9 +589,7 @@ footer{
 }
 
 footer{
-
     flex-direction: column;
-
 }
 
 
@@ -639,8 +638,7 @@ footer{
 }
 
 .main-servicios img:hover{
-    transform: translateY(-4px);
-    
+    transform: translateY(-6px);
 }
 
 
