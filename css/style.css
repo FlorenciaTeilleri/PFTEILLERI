@@ -534,13 +534,8 @@ footer{
 
     header{
         padding: 0%;
-        margin-top:auto;
     }
-    
-button.navbar-toggler-collapsed{
 
-
-}
 
 .bloque-uno__logo{
     width: 100px;
@@ -553,14 +548,24 @@ button.navbar-toggler-collapsed{
 
     }
 
+#tituloServicios{
+        font-size: 20px !important;
+    }
+
 .bg-body-tertiary{
     --bs-bg-opacity: 0;
 }
 
-img.imagenServicio{
+.main-servicios img{
     padding: 0%;
     width: 320px !important;
+    height: 300px !important;
 
+}
+
+.main-servicios p{
+    padding: 0%;
+    font-size: 15px !important;
 }
 
 footer{
@@ -605,6 +610,7 @@ footer{
     display: flex;
     justify-content: center;
 }
+
 
 .main-servicios img{
     border-radius:100px;
