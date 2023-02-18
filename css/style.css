@@ -482,10 +482,11 @@ footer h5{
     height: 60px;
 }
 
-/*  MEDIA QUERY MOBILE  */
+/*  ¡¡¡¡¡¡  MEDIA QUERY MOBILE PARA MIS SECCIONES   !!!!!! */
 
 @media (max-width: 576px){
 
+/*   MEDIAQUERIES HEADER    */
 header{
     padding: 0%;
     }
@@ -504,6 +505,14 @@ header{
     font-size: 30px;
     }
 
+/*      MEDIAQUERIES INDEX          */
+
+.home{
+    min-height: auto;
+}
+
+/*     MEDIAQUERIES PAGINA SERVICIOS     */
+
 #tituloServicios{
     font-size: 20px !important;
     }
@@ -519,6 +528,8 @@ header{
     font-size: 15px !important;
     }
 
+
+/*    MEDIAQUERIES PAGINA CONTACTO    */
 #tituloContacto{
     font-size: 20px;
     }
@@ -550,6 +561,7 @@ textarea{
     height: 300px ;
     }
 
+/*      MEDIAQUERIES FOOTER      */
 footer{
     flex-direction: column;
     }
