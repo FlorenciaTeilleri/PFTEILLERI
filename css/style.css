@@ -8,7 +8,6 @@
 /*   HEADER   */
 
 header{
-
     background-color: pink;
     padding: 20px;
     display: flex;
@@ -183,7 +182,7 @@ a.nav-link{
     padding: 0px 20px;
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    min-height: auto;
 }
 
 #tituloTurnos{
@@ -193,19 +192,16 @@ a.nav-link{
     color: white;
     font-family: 'Bodoni Moda', serif;
     display: inline;
+    font-weight: bold;
 }
 
-.seccion-turnos{
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 100vh;
-}
+.columnasTurnos{
+    padding: 20px;
+    }
 
-h4{
+.pregunta{
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px;
     justify-content: center;
     color: white;
@@ -213,101 +209,60 @@ h4{
 
 }
 
-.seccion-turnos__bloque1{
-    display: flex;
-    flex-direction: row; 
-}
-.seccion-turnos__bloque1 form{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 300px;
-    margin: 20px;
-}
-
-.seccion-turnos__bloque1 input{
-    margin: 10px;
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    padding: 5px 5px;
+.form-control{
     text-align:center;
-    font-size: 30px;
-    font-family:'Bodoni Moda', serif;
-    color:#F40076;
-    font-weight: bold;
-}
-
-#boton{
-    background-color:yellow;
-    color: red;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 12px 20px;
-    border: 8px solid #F40076;
-    border-radius: 10px;
-
-}
-
-#opcDesplegables{
-
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    text-align: center;
     font-size: 15px;
-    padding: 20px;
+    padding: 6px 12px;
+    color:#F40076 !important;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    border: 4px solid #efc7e5;
+    border-radius: 10px ;
+    margin: 20px;
+    width: 100%;
+}
+
+#botonEnviar{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 60px;
     color: #F40076;
     font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    border: 4px solid #efc7e5;
+    border-radius: 10px;
+    margin: 20px;
+
 }
 
-#radioButtonTurnos{
+.opcDesplegables{
+    text-align:justify;
+    font-size: 15px;
+    padding: 6px 12px;
+    color:#F40076;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    border: 4px solid #efc7e5;
+    border-radius: 10px ;
+    margin: 20px;
+    width: 100%;
+}
 
-    border: 8px solid #F40076;
-    border-radius: 10px;
+#radioBut{
     text-align: center;
     font-size: 15px;   
     justify-content: center;
     color: #F40076;
     font-family: 'Bodoni Moda', serif;
 }
-.seccion-turnos__bloque2{
-    display: flex;
-    padding: 0px 0px 20px 0px;
-    flex-direction: column;
-    justify-content: center;
-    width: 1300px;
-}
 
 
-h2{ 
-    font-size: 30px;
-    padding: 20px;
-    color:white;
-    font-family: 'Bodoni Moda', serif;
-}
 
-.seccion-turnos__bloque2 ol{
-    border: 8px solid #F40076;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-    color: #F40076;
-    font-family: 'Bodoni Moda', serif;  
-}
-
-.seccion-turnos__bloque2 li{
-    margin: 5px;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
-    color: white;
-    font-family: 'Bodoni Moda', serif;  
-}
 
 
 /*     MAIN SOBRE NOSOTRAS     */
 
-#mainSobreNosotras{
+.mainSobreNosotras{
     background-image: radial-gradient(circle, #E18AD4, #EEB1D5, #EFC7E5);
     padding: 0px 20px;
     display: flex;
@@ -315,7 +270,7 @@ h2{
     min-height: 100vh;
 }
 
-#tituloSN{
+.tituloSN{
     text-align: center;
     font-size: 50px;
     padding: 20px;
@@ -324,7 +279,7 @@ h2{
     font-weight: bold;
 }
 
-#mainSobreNosotras p{
+.parrafoSN{
     padding: 20px;
     width: 1000px;
     text-align:center;
@@ -335,12 +290,13 @@ h2{
 
 }
 
-#mainSobreNosotras img{
+.imagenSN{
     border-radius:100px;
     padding: 20px;
     width: 425px;
     height: 400px;
 }
+
 
 
 /*   MAIN CONTACTO   */
@@ -528,8 +484,69 @@ header{
     font-size: 15px !important;
     }
 
+/*    MEDIAQUERIES PAGINA TURNOS      */
+
+#tituloTurnos{
+    font-size: 20px;
+    padding: none;
+}
+
+.columnasTurnos{
+    width: 350px;
+    padding: 10px;
+    }
+
+.pregunta{
+    font-size: 15px;
+}
+
+    .form-control{
+    margin: 10px;
+}
+
+#botonEnviar{
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    padding: 10px !important;
+}
+
+.opcDesplegables{
+    margin: 10px;
+}
+
+#radioBut input{
+    width: 50px;
+}
+
+
+
+/*    MEDIAQUERIES PAGINA SOBRE NOSOTRAS     */
+
+.tituloSN{
+    font-size: 20px !important;
+    padding: none;
+}
+
+.parrafoSN{
+    padding: 10px;
+    width: auto;
+    font-size: 16px;
+}
+
+.imagenSN{
+    border-radius: 50px;
+    width: 340px !important;
+    height: 320px !important;
+}
+
+
+
+
+
 
 /*    MEDIAQUERIES PAGINA CONTACTO    */
+
 #tituloContacto{
     font-size: 20px;
     }

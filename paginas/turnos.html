@@ -48,51 +48,53 @@
     </header>
     
     <main class="main-turnos">
-
-        <h3 id="tituloTurnos">Turnos</h3>
-
-        <section class="seccion-turnos">
-            <div class="seccion-turnos__bloque1">
-
-                <form action="" enctype="multipart/form-data">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                    <input type="number" placeholder="Celular">
-                        <input type="date">
-                            <input type="time">
-
-                        <select id="opcDesplegables"name="" id="">
-                            <option value="Disabled selected">Seleccione un servicio</option>
-                            <option value="">Extensiones de pestañas</option>
-                            <option value="">Extensiones soft gel</option>
-                            <option value="">Esmaltado semipermanente</option>
-                        </select>
-
-                        <h4>¿Tiene algún servicio que haya que retirar?</h4>
-
-                                            <div id="radioButtonTurnos">
-                                            <label for="">SI</label>
-                                            <input name="retirado" type="radio">
-                                            <label for="">NO</label>
-                                            <input name="retirado" type="radio">
-                                            </div>
-
-                                <input id="boton" type="submit" placeholder="Enviar">
-                </form>
+    <div class="container contenedor">
+        <div class="row">
+            <div class="col-12 col-xl-12 justify-content-center columnasTurnos">
+                <H3 id="tituloTurnos" class="animate__animated animate__pulse animate__slow">Turnos</H3>
             </div>
-
-            <div class="seccion-turnos__bloque2">
-                <h2>A tener en cuenta</h2>
-                    <ol>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, in aliquid soluta aperiam quas omnis, tenetur iste at voluptatem earum perferendis quo architecto nesciunt, odit ratione perspiciatis unde deleniti sunt.</li>
-                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sapiente vitae recusandae debitis dignissimos totam quo enim iusto harum, modi odit ex perspiciatis optio ea tempore, ut dolorum ratione consequatur.</li>
-                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum accusamus aliquid aliquam tempora saepe iusto cupiditate adipisci temporibus magni maxime, nobis doloribus odio, eius explicabo! Quibusdam mollitia sit impedit reiciendis?</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam illum nobis amet, dignissimos voluptatem nisi, in mollitia blanditiis deleniti voluptas eos voluptate iure ea veniam inventore molestiae eaque perspiciatis?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quas explicabo, veniam distinctio dignissimos deserunt ex sed tenetur non velit recusandae sequi quidem ratione, excepturi facilis nisi perferendis nihil incidunt.</li>
-                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, provident numquam explicabo inventore fugit voluptates magni quisquam, consectetur aliquid suscipit sequi maiores velit enim quod dolorum quam, facilis ea earum.</li>
-                    </ol>
-                </div>
-            </section>
+            <div class="col-12 col-xl-12 justify-content-center columnasTurnos">
+                <form action=""  enctype="multipart">
+                    <div class="col-12 col-xl-12 columnasTurnos">
+                            <div class="row">
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <input type="text" class="form-control animate__animated animate__pulse animate__slow" placeholder="Nombre">
+                                </div>
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <input type="text" class="form-control animate__animated animate__pulse animate__slow" placeholder="Apellido">
+                                </div>
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <input type="text" class="form-control animate__animated animate__pulse animate__slow" placeholder="Celular">
+                                </div>
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <input type="date" class="form-control animate__animated animate__pulse animate__slow">
+                                </div>
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <select class="opcDesplegables animate__animated animate__pulse animate__slow" id="autoSizingSelect">
+                                    <option value="Disabled selected">Seleccione un servicio</option>
+                                    <option value="">Extensiones de pestañas</option>
+                                    <option value="">Esmaltado semipermanente</option>
+                                    <option value="">Extensiones soft gel</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-xl-6 columnasTurnos">
+                                    <h4 class="pregunta animate__animated animate__pulse animate__slow">¿Tiene algún servicio que haya que retirar?</h4>
+                                    <div id="radioBut" class="animate__animated animate__pulse animate__slow">
+                                        <label for="">SI</label>
+                                        <input name="retirado" type="radio">
+                                        <label for="">NO</label>
+                                        <input name="retirado" type="radio">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-12 justify-content-center columnasTurnos">
+                                    <input id="botonEnviar" class="animate__animated animate__pulse animate__slow" type="submit" placeholder="Enviar">
+                                </div>
+                            </div>
+                    </div>
+                </form> 
+            </div>  
+        </div>
+    </div>
     </main>
     
     <footer>
@@ -121,5 +123,6 @@
         </div>
     </footer>
     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
