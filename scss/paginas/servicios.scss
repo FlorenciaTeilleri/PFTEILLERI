@@ -6,19 +6,15 @@
 	#tituloServicios{
         display: flex;
         text-align: center;
-        font-size: 50px;
         padding: 20px;
-        color: white;
-        font-family: 'Bodoni Moda', serif;
+        color: $color-secundario;
 	}
 
 	p{
         padding: 20px;
         width: 100%;
         text-align:center;
-        font-size: 30px;
-        font-family:'Bodoni Moda', serif;
-        color: white;
+        color: $color-secundario;
         font-weight: bold;
 	}
 
@@ -44,7 +40,7 @@
         height: 300px !important;
         }
 
-	.main-servicios p{
+	p{
         padding: 10%;
         font-size: 15px !important;
         }

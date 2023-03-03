@@ -5,6 +5,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top:auto;
+    flex-direction: column;
 
 	h5{
         color: #F40076; 
@@ -54,7 +55,6 @@ footer{
 	@media (max-width: 576px){
 		footer{
         flex-direction: column;
-        padding: none;
         }
 	}
 

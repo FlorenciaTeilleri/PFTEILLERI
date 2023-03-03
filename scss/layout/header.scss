@@ -1,7 +1,7 @@
 
 header{
     background-color: $fondo-secundario;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,26 +13,27 @@ header{
         align-items: center;
         justify-content: space-between;
 
-	.bloque-uno__logo{
-	width: 210px;
-	height: 210px;
-	}
+            .bloque-uno__logo{
+                width: 200px;
+                height: 200px;
+            }
 	}
 
     .navbar{
+        background-color:  $fondo-secundario !important ;
+
 		.bg-body-tertiary{
-            background-color:  pink !important ;
+            background-color:  $fondo-secundario !important ;
 		}
 		
 		.navbar-toggler-icon{
             filter: invert(87%) sepia(20%) saturate(2279%) hue-rotate(247deg) brightness(96%) contrast(82%);
 		}
-		.navbar-toggler{    
-            color: white;
+		.navbar-toggler{   
+            color: pink;
 		}
 		button{
-            border-radius: 100px;
-            border-color: white;
+            border: none;
             }
 
         ul{
@@ -41,22 +42,19 @@ header{
             padding:0;
             text-align: center;
             flex-direction: column;
-            border: 4px solid #F40076 ;
             border-radius: 20px;
             display: flex;
             text-decoration: none;
             
             li{
                 list-style-type: none;
-                a{
-                    font-size: 25px;
-                    font-family: 'Bodoni Moda', serif;
                     font-weight: bold;
-                    color: white;
+                    color: $color-secundario;
                     text-decoration: none;
                     padding: 0px 10px;
                     text-decoration: none;
-                    //En caso de que los a no se pongan blancos pone a.nav-link{color:white;}
+                a.nav-link{
+                    font-size: 25px;
                 }
             }
         }
@@ -64,7 +62,6 @@ header{
 
 @media (max-width: 576px){
     header{
-
         padding: 0%;
     }
 
@@ -72,11 +69,16 @@ header{
         --bs-bg-opacity: 0;
     }
 
+    a{
+        font-size: 20px !important;
+    }
+
     .bloque-uno__logo{
         width: 100px !important;
         height: 100px !important;
     }
-        
+    
+    
     .bloque-uno h2{
         padding: 0%;
         font-size: 30px;
