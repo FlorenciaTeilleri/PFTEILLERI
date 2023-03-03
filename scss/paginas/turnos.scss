@@ -7,32 +7,28 @@ min-height: auto;
 		
 	.columnasTurnos{
         padding: 20px;
+        align-items: center;
+        display: flex;
 	
 	#tituloTurnos{
         text-align: center;
-        font-size: 50px;
         padding: 20px;
         color: white;
-        font-family: 'Bodoni Moda', serif;
-        display: inline;
-        font-weight: bold; }
+        display: inline; 
+        }
 
-	.pregunta{
+	h4{
         text-align: justify;
-        font-size: 20px;
-        padding: 20px;
+        padding: 10px;
         justify-content: center;
-        color: white;
-        font-family: 'Bodoni Moda', serif;
-		}
+        color: $color-secundario;
+	}
 
         .form-control{
         text-align:center;
         font-size: 15px;
         padding: 6px 12px;
         color:#F40076 !important;
-        font-family: 'Bodoni Moda', serif;
-        font-weight: bold;
         border: 4px solid #efc7e5;
         border-radius: 10px ;
         margin: 20px;
@@ -41,11 +37,8 @@ min-height: auto;
 
 	#botonEnviar{
         text-align: center;
-        font-size: 20px;
         padding: 20px 60px;
-        color: #F40076;
-        font-family: 'Bodoni Moda', serif;
-        font-weight: bold;
+        color: $color-primario;
         border: 4px solid #efc7e5;
         border-radius: 10px;
         margin: 20px;
