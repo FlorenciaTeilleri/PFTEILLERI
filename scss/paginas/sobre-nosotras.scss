@@ -1,0 +1,54 @@
+.mainSobreNosotras{
+    background-image: $fondo-primario;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+.tituloSN{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: $color-secundario;
+    font-weight: bold;
+}
+
+.mainSobreNosotras p{
+    padding: 20px;
+    width: 1000px;
+    text-align:center;
+    font-size: 30px;
+    font-family:'Bodoni Moda', serif;
+    color: $color-secundario;
+    font-weight: bold;
+
+}
+
+.mainSobreNosotras img{
+    border-radius:100px;
+    padding: 20px;
+    width: 425px;
+    height: 400px;
+}
+
+
+@media (max-width: 576px){
+	
+    .tituloSN{
+        font-size: 20px !important;
+        padding: none;
+    }
+
+    .parrafoSN{
+        padding: 10px;
+        width: auto;
+        font-size: 16px;
+    }
+
+    .imagenSN{
+        border-radius: 50px;
+        width: 340px !important;
+        height: 320px !important;
+    }
+}
+}

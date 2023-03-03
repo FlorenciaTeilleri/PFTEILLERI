@@ -1,0 +1,52 @@
+.main-servicios{
+        background-image: $fondo-primario;
+        display: flex;
+        flex-direction: column;
+
+	#tituloServicios{
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+        color: white;
+        font-family: 'Bodoni Moda', serif;
+	}
+
+	p{
+        padding: 20px;
+        width: 100%;
+        text-align:center;
+        font-size: 30px;
+        font-family:'Bodoni Moda', serif;
+        color: white;
+        font-weight: bold;
+	}
+
+	img{
+        border-radius:100px;
+        padding: 20px;
+        width: 370px;
+        height: 400px;
+                &:hover{
+                transform: translateY(-6px);
+                }
+        }
+
+	@media (max-width: 576px){
+	
+	#tituloServicios{
+        font-size: 20px !important;
+        }
+
+	.main-servicios img{
+        padding: 0%;
+        width: 320px !important;
+        height: 300px !important;
+        }
+
+	.main-servicios p{
+        padding: 10%;
+        font-size: 15px !important;
+        }
+	}
+}

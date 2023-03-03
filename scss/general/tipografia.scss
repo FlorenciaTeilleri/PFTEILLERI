@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,600&family=Lobster&family=Mr+Dafoe&family=Playfair+Display+SC&display=swap');
+
+*{
+    font-family: 'Bodoni Moda', serif;
+}
+
+h2{
+    font-size: 100px;
+    color: $color-secundario;
+}
+
+@each $fontSize in 15px, 16px, 20px, 25px, 30px, 50px, 100px{
+    .tamañoFuente-#{$fontSize}{
+        font-size: $fontSize;}
+    
+}

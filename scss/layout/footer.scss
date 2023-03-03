@@ -1,0 +1,61 @@
+footer{
+    background-color: $fondo-secundario; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:auto;
+
+	h5{
+        color: #F40076; 
+	}
+
+    .redes-sociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: white;
+    }
+
+    .texto-redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 20px 15px 10px 15px; 
+        color: white;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+	}
+
+    .horarios-atencion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        color: white;
+    }
+
+    .mapa-direccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items:center;
+        color: white; 
+            iframe{
+                width: 150px;
+                height: 60px;
+            }
+    }
+	
+	@media (max-width: 576px){
+		footer{
+        flex-direction: column;
+        padding: none;
+        }
+	}
+
+}

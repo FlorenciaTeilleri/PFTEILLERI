@@ -1,0 +1,87 @@
+
+.main-contacto{
+    background-image: $fondo-primario;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100vh;
+
+    .columnas{
+        padding: 20px;
+
+        #tituloContacto{
+            text-align: center;       
+            padding: 20px;
+            color: $color-secundario;
+            font-weight: bold;
+        }
+    
+        input{
+            text-align: center;
+            font-size: 15px;
+            padding: 20px 60px;
+            color:$color-primario;
+            font-weight: bold;
+            border: 4px solid $color-terciario;
+            border-radius: 10px ;
+            margin: 20px;
+        }
+    
+        textarea{
+            font-size: 15px;
+            padding: 20px;
+            color:#F40076;
+            font-family: 'Bodoni Moda', serif;
+            font-weight: bold;
+            border: 4px solid #efc7e5;
+            border-radius: 10px ;
+            margin: 50px 20px 20px 20px;
+            width: 600px;
+            height: 400px;
+        }
+        
+        #boton{
+        text-align: center;
+        padding: 20px 60px;
+        color: $color-primario;
+        font-weight: bold;
+        border: 4px solid $color-terciario;
+        border-radius: 10px;
+        margin: 20px;
+        }
+}
+
+@media (max-width: 576px){	
+
+    #tituloContacto{
+        font-size: 20px;
+    }
+
+    #boton{
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+        border: 4px solid #efc7e5;
+        border-radius: 10px;
+        height: auto;
+        width: 150px;
+    }
+
+    input{
+        padding: 20px 40px !important;
+        margin: 0%;
+        width: 250px ;
+        height: 30px ;
+    }
+
+    div.columnas{
+        padding: 10px;
+    }
+
+    textarea{
+        padding: 0px;
+        width: 250px ;
+        height: 300px ;
+    }
+}
+}
