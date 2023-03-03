@@ -3,32 +3,30 @@
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content:center;
+    min-height: auto;
 
-.tituloSN{
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-    color: $color-secundario;
-    font-weight: bold;
-}
+    .tituloSN{
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+        color: $color-secundario;
+        font-weight: bold;
+    }
 
-.mainSobreNosotras p{
+    p{
     padding: 20px;
-    width: 1000px;
+    width: auto;
     text-align:center;
     font-size: 30px;
-    font-family:'Bodoni Moda', serif;
     color: $color-secundario;
-    font-weight: bold;
-
 }
 
-.mainSobreNosotras img{
+    img{
     border-radius:100px;
-    padding: 20px;
-    width: 425px;
-    height: 400px;
+    padding: none;
+    width: 400px;
+    height: 300px;
 }
 
 
@@ -39,15 +37,16 @@
         padding: none;
     }
 
-    .parrafoSN{
+    p{
         padding: 10px;
         width: auto;
         font-size: 16px;
     }
 
-    .imagenSN{
+    img{
         border-radius: 50px;
-        width: 340px !important;
+        justify-content: center;
+        width: 320px !important;
         height: 320px !important;
     }
 }
