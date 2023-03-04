@@ -1,5 +1,5 @@
 footer{
-    background-color: map-get($fondos, fondo-secundario); 
+    background-color: $color; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +50,11 @@ footer{
             }
     }
 	
+    @if (color == dia ){
+        background-color: yellow;
+        }
+        @else {background-color:green;}
+
 	@media (max-width: 576px){
 		footer{
         flex-direction: column;

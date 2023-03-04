@@ -309,13 +309,14 @@ header {
       width: 50px; } }
 
 footer {
-  background-color: pink;
+  background-color: dia;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: green; }
   footer h5 {
     color: #F40076; }
   footer .redes-sociales {
