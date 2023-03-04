@@ -9,7 +9,9 @@ h2{
     font-size: 100px;
     color: $color-secundario;
 }
-
+a.href{
+    color:$color-secundario;
+}
 @each $fontSize in 15px, 16px, 20px, 25px, 30px, 50px, 100px{
     .tamañoFuente-#{$fontSize}{
         font-size: $fontSize;}

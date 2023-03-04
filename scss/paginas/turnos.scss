@@ -61,10 +61,6 @@ min-height: auto;
 
 }
 
-@if $mobile <= 576px{
-
-}
-
 @media (max-width: 576px){
         #tituloTurnos{
         font-size: 20px;

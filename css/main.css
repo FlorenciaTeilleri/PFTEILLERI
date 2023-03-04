@@ -8,6 +8,9 @@ h2 {
   font-size: 100px;
   color: white; }
 
+a.href {
+  color: white; }
+
 .tamañoFuente-15px {
   font-size: 15px; }
 
@@ -309,14 +312,13 @@ header {
       width: 50px; } }
 
 footer {
-  background-color: dia;
+  background-color: pink;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
-  flex-direction: column;
-  background-color: green; }
+  flex-direction: column; }
   footer h5 {
     color: #F40076; }
   footer .redes-sociales {
@@ -335,6 +337,9 @@ footer {
     footer .texto-redes img {
       width: 20px;
       height: 20px; }
+      footer .texto-redes img a.href {
+        color: white;
+        text-decoration: none; }
   footer .horarios-atencion {
     display: flex;
     flex-direction: column;
