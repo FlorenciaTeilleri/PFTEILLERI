@@ -33,7 +33,7 @@
             color:$color-primario;
             border: 4px solid $color-terciario;
             border-radius: 10px ;
-            margin: 20px;
+            margin: $margin * 2;
         }
         textarea{
             display: flex;

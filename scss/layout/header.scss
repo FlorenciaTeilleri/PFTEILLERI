@@ -14,8 +14,7 @@ header{
         justify-content: space-between;
 
             .bloque-uno__logo{
-                width: 200px;
-                height: 200px;
+                @include tamaños(200px,200px);
             }
 	}
 
@@ -48,14 +47,10 @@ header{
             
             li{
                 list-style-type: none;
-                    font-weight: bold;
                     color: $color-secundario;
                     text-decoration: none;
                     padding: 0px 10px;
                     text-decoration: none;
-                a.nav-link{
-                    font-size: 25px;
-                }
             }
         }
     }

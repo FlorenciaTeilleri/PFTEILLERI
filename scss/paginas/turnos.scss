@@ -62,7 +62,7 @@ min-height: auto;
 }
 
 @if $mobile <= 576px{
-        
+
 }
 
 @media (max-width: 576px){
@@ -86,8 +86,7 @@ min-height: auto;
 
 	#botonEnviar{
         font-size: 15px;
-        width: 150px;
-        height: 50px;
+        @include tamaños(150px,50px);
         padding: 10px !important;
 	}
 

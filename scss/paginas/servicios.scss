@@ -20,8 +20,7 @@
 	img{
         border-radius:100px;
         padding: 20px;
-        width: 380px;
-        height: 400px;
+        @include tamaños(380px,400px);
                 &:hover{
                 transform: translateY(-6px);
                 }
