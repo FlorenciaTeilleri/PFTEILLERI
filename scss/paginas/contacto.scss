@@ -1,46 +1,57 @@
 
 .main-contacto{
     background-image: $fondo-primario;
-    display: flex;
+    display: flex !important;
+    justify-content: center !important;
     flex-direction: column;
     min-height: 100vh;
     min-height: 100vh;
 
+    .main-contacto .columnas textarea{
+        display: flex;
+    }
+    div.columnas{
+        display: flex;
+        justify-content: center;
+    }
     .columnas{
         padding: 20px;
-
+        
         #tituloContacto{
             text-align: center;       
             padding: 20px;
             color: $color-secundario;
-            font-weight: bold;
         }
-    
+        
+        .main-contacto .columnas input{
+            display: flex;
+        }
+        
         input{
+            justify-content: center;
             text-align: center;
-            font-size: 15px;
+            font-size: 20px;
             padding: 20px 60px;
             color:$color-primario;
-            font-weight: bold;
             border: 4px solid $color-terciario;
             border-radius: 10px ;
             margin: 20px;
         }
-    
         textarea{
+            display: flex;
+            justify-content: center;
             font-size: 15px;
             padding: 20px;
-            color:#F40076;
-            font-family: 'Bodoni Moda', serif;
-            font-weight: bold;
+            color:$color-primario;
             border: 4px solid #efc7e5;
             border-radius: 10px ;
-            margin: 50px 20px 20px 20px;
+            margin: $margin * 5 $margin * 2 $margin * 2 $margin * 2;
             width: 600px;
             height: 400px;
         }
         
         #boton{
+            display: flex;
             text-align: center;
             padding: 20px 60px;
             color: $color-primario;

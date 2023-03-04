@@ -141,38 +141,46 @@ header {
 
 .main-contacto {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
-  display: flex;
+  display: flex !important;
+  justify-content: center !important;
   flex-direction: column;
   min-height: 100vh;
   min-height: 100vh; }
+  .main-contacto .main-contacto .columnas textarea {
+    display: flex; }
+  .main-contacto div.columnas {
+    display: flex;
+    justify-content: center; }
   .main-contacto .columnas {
     padding: 20px; }
     .main-contacto .columnas #tituloContacto {
       text-align: center;
       padding: 20px;
-      color: white;
-      font-weight: bold; }
+      color: white; }
+    .main-contacto .columnas .main-contacto .columnas input {
+      display: flex; }
     .main-contacto .columnas input {
+      justify-content: center;
       text-align: center;
-      font-size: 15px;
+      font-size: 20px;
       padding: 20px 60px;
       color: #F40076;
-      font-weight: bold;
       border: 4px solid #efc7e5;
       border-radius: 10px;
       margin: 20px; }
     .main-contacto .columnas textarea {
+      display: flex;
+      justify-content: center;
       font-size: 15px;
       padding: 20px;
       color: #F40076;
-      font-family: 'Bodoni Moda', serif;
-      font-weight: bold;
       border: 4px solid #efc7e5;
       border-radius: 10px;
       margin: 50px 20px 20px 20px;
       width: 600px;
       height: 400px; }
     .main-contacto .columnas #boton {
+      display: flex;
       text-align: center;
       padding: 20px 60px;
       color: #F40076;
