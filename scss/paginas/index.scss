@@ -2,7 +2,7 @@
     background-image: map-get($fondos, fondo-primario);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+
 
 	#carouselExampleSlidesOnly{
         display: flex;
@@ -22,7 +22,7 @@
 
 	@media (max-width: 576px){
     .home{
-        min-height: auto;
+        min-height: auto !important;
     }
 	}	
 }
