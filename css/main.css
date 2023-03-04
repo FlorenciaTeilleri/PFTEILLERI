@@ -208,7 +208,7 @@ header {
 
 .mainSobreNosotras {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
-  padding: 0px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

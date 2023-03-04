@@ -1,11 +1,10 @@
 .mainSobreNosotras{
     background-image: map-get($fondos, fondo-primario);
-    padding: 0px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     min-height: auto;
-    
 
     .tituloSN{
         text-align: center;
@@ -14,18 +13,18 @@
     }
 
     p{
-    padding: 20px;
-    width: auto;
-    text-align:center;
-    font-size: 30px;
-    color: $color-secundario;
-}
+        padding: 20px;
+        width: auto;
+        text-align:center;
+        font-size: 30px;
+        color: $color-secundario;
+    }
 
     img{
-    border-radius:100px;
-    padding: none;
-    @include tamaños(400px, 300px);
-}
+        border-radius:100px;
+        padding: none;
+        @include tamaños(400px, 300px);
+    }
 
 
 @media (max-width: 576px){
@@ -44,6 +43,5 @@
         @include tamaños(320px!important,320px!important);
     }
 }
-
 
 }
