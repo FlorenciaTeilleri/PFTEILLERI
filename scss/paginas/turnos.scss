@@ -1,5 +1,5 @@
 .main-turnos{
-background-image: $fondo-primario;
+background-image: map-get($fondos, fondo-primario);
 padding: 0px 20px;
 display: flex;
 flex-direction: row;
@@ -59,6 +59,10 @@ min-height: auto;
         color: $color-primario;
 	}
 
+}
+
+@if $mobile <= 576px{
+        
 }
 
 @media (max-width: 576px){

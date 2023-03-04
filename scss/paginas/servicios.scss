@@ -1,5 +1,5 @@
 .main-servicios{
-        background-image: $fondo-primario;
+        background-image: map-get($fondos, fondo-primario);
         display: flex;
         flex-direction: column;
 

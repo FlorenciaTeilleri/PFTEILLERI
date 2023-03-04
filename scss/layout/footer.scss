@@ -1,5 +1,5 @@
 footer{
-    background-color: $fondo-secundario; 
+    background-color: map-get($fondos, fondo-secundario); 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@ footer{
     flex-direction: column;
 
 	h5{
-        color: #F40076; 
+        color: $color-primario; 
 	}
 
     .redes-sociales{
@@ -16,7 +16,7 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        color: white;
+        color: $color-secundario;
     }
 
     .texto-redes{
@@ -24,11 +24,10 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 20px 15px 10px 15px; 
-        color: white;
+        margin: $margin * 2 $margin + 5px $margin $margin + 5px;
+        color: $color-secundario;
             img{
-                width: 20px;
-                height: 20px;
+                @include tamaños(20px,20px);
             }
 	}
 
@@ -37,7 +36,7 @@ footer{
         flex-direction: column;
         justify-content: space-between;
         align-items:center;
-        color: white;
+        color: $color-secundario ;
     }
 
     .mapa-direccion{
@@ -45,10 +44,9 @@ footer{
         flex-direction: column;
         justify-content: flex-end;
         align-items:center;
-        color: white; 
+        color: $color-secundario; 
             iframe{
-                width: 150px;
-                height: 60px;
+                @include tamaños(150px,60px);
             }
     }
 	

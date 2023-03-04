@@ -13,5 +13,4 @@ h2{
 @each $fontSize in 15px, 16px, 20px, 25px, 30px, 50px, 100px{
     .tamañoFuente-#{$fontSize}{
         font-size: $fontSize;}
-    
 }

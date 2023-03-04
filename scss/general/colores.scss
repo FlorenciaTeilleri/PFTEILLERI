@@ -1,5 +1,12 @@
-$fondo-primario: radial-gradient(circle,rgba(225, 138, 212, 1), rgba(238, 177, 213, 1), rgba(239, 199, 229, 1));
-$fondo-secundario: pink;
+$fondos:(
+fondo-primario: radial-gradient(circle,rgba(225, 138, 212, 1), rgba(238, 177, 213, 1), rgba(239, 199, 229, 1)),
+fondo-secundario: pink
+);
+
 $color-primario: #F40076;
 $color-secundario: white;
 $color-terciario: #efc7e5; 
+$color-cuaternario: rgb(228, 183, 229);
+
+
+

@@ -1,6 +1,6 @@
 
 header{
-    background-color: $fondo-secundario;
+    background-color: map-get($fondos, fondo-secundario);
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -20,10 +20,10 @@ header{
 	}
 
     .navbar{
-        background-color:  $fondo-secundario !important ;
+        background-color:  map-get($fondos, fondo-secundario) !important;
 
 		.bg-body-tertiary{
-            background-color:  $fondo-secundario !important ;
+            background-color:  map-get($fondos, fondo-secundario) !important;
 		}
 		
 		.navbar-toggler-icon{

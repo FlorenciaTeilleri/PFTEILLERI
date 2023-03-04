@@ -1,10 +1,11 @@
 .mainSobreNosotras{
-    background-image: $fondo-primario;
+    background-image: map-get($fondos, fondo-primario);
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     min-height: auto;
+    
 
     .tituloSN{
         text-align: center;
@@ -25,18 +26,16 @@
     img{
     border-radius:100px;
     padding: none;
-    width: 400px;
-    height: 300px;
+    @include tamaños(400px, 300px);
 }
 
 
 @media (max-width: 576px){
-	
     .tituloSN{
         font-size: 20px !important;
         padding: none;
     }
-
+    
     p{
         padding: 10px;
         width: auto;
@@ -46,8 +45,9 @@
     img{
         border-radius: 50px;
         justify-content: center;
-        width: 320px !important;
-        height: 320px !important;
+        @include tamaños(320px!important,320px!important);
     }
 }
+
+
 }
