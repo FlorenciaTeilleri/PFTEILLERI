@@ -12,12 +12,14 @@
 	.carousel-item{
         @include tamaños(100%,100%);
         padding: 50px 0px;
+        display: flex;
 	}
 
 	img{
         @include tamaños(auto,auto);
         margin-bottom: $margin;
         border-radius: 100px;
+        justify-content: center;
 	}
 
 	@media (max-width: 576px){
