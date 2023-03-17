@@ -6,6 +6,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    min-height: 100%;
 
 	.bloque-uno{
         display: flex;
@@ -14,7 +15,11 @@ header{
         justify-content: space-between;
 
             .bloque-uno__logo{
-                @include tamaños(200px,200px);
+                @include tamaños(100px,100px);
+            }
+
+            .bloque-uno__titulo{
+                font-size: 42px;
             }
 	}
 
@@ -40,7 +45,7 @@ header{
             margin: 0;
             padding:0;
             text-align: center;
-            flex-direction: column;
+            flex-direction: row;
             border-radius: 20px;
             display: flex;
             text-decoration: none;

@@ -38,15 +38,18 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  min-height: 100%; }
   header .bloque-uno {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; }
     header .bloque-uno .bloque-uno__logo {
-      width: 200px;
-      height: 200px; }
+      width: 100px;
+      height: 100px; }
+    header .bloque-uno .bloque-uno__titulo {
+      font-size: 42px; }
   header .navbar {
     background-color: pink !important; }
     header .navbar .bg-body-tertiary {
@@ -62,7 +65,7 @@ header {
       margin: 0;
       padding: 0;
       text-align: center;
-      flex-direction: column;
+      flex-direction: row;
       border-radius: 20px;
       display: flex;
       text-decoration: none; }
@@ -94,13 +97,13 @@ header {
     display: flex;
     justify-content: center; }
   .home .carousel-item {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     padding: 50px 0px;
     display: flex; }
   .home img {
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 500px;
     margin-bottom: 10px;
     border-radius: 100px;
     justify-content: center; }

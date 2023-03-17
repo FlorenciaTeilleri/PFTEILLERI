@@ -10,13 +10,13 @@
 	}
 
 	.carousel-item{
-        @include tamaños(100%,100%);
+        @include tamaños(auto,auto);
         padding: 50px 0px;
         display: flex;
 	}
 
 	img{
-        @include tamaños(auto,auto);
+        @include tamaños(500px,500px);
         margin-bottom: $margin;
         border-radius: 100px;
         justify-content: center;
