@@ -1,3 +1,4 @@
+*{min-height: none;}
 
 header{
     background-color: map-get($fondos, fondo-secundario);
@@ -6,7 +7,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-height: 100%;
+    
 
 	.bloque-uno{
         display: flex;
