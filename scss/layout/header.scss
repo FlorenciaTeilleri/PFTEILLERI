@@ -2,7 +2,6 @@
 
 header{
     background-color: map-get($fondos, fondo-secundario);
-    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,7 +54,7 @@ header{
                 list-style-type: none;
                     color: $color-secundario;
                     text-decoration: none;
-                    padding: 0px 10px;
+                    padding: 0px 7px;
                     text-decoration: none;
             }
         }
@@ -71,18 +70,18 @@ header{
     }
 
     a{
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
 
     .bloque-uno__logo{
-        width: 100px !important;
-        height: 100px !important;
+        width: 80px !important;
+        height: 80px !important;
     }
     
     
-    .bloque-uno h2{
+    .bloque-uno__titulo{
+        font-size: 20px !important;
         padding: 0%;
-        font-size: 30px;
     }
 }
 }
