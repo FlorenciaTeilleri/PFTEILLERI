@@ -95,24 +95,26 @@ header {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
   display: flex;
   flex-direction: column; }
-  .home .CARU {
+  .home #carouselExampleSlidesOnly {
     display: flex;
     justify-content: center; }
-    .home .CARU #carouselExampleSlidesOnly {
-      display: flex;
-      justify-content: center; }
-    .home .CARU .carousel-item {
-      width: auto;
-      height: auto;
-      padding: 50px 0px; }
-    .home .CARU img {
-      width: 500px;
-      height: 500px;
-      margin-bottom: 10px;
-      border-radius: 100px; }
-    @media (max-width: 576px) {
-      .home .CARU .home {
-        min-height: auto !important; } }
+  .home .carousel-inner {
+    width: 50%; }
+  .home .carousel-item {
+    width: auto;
+    height: auto;
+    padding: 50px 0px; }
+  .home img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 100px; }
+  @media (max-width: 576px) {
+    .home .carousel-inner {
+      width: auto; }
+    .home img {
+      width: 370px;
+      height: 500px; } }
 
 .main-servicios {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);

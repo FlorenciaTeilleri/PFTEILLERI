@@ -2,17 +2,15 @@
     background-image: map-get($fondos, fondo-primario);
     display: flex;
     flex-direction: column;
-    
-    
-    .CARU{
-        display: flex;
-        justify-content: center;
-        
-        #carouselExampleSlidesOnly{
+
+
+	#carouselExampleSlidesOnly{
         display: flex;
         justify-content: center;
 	}
-
+    .carousel-inner{
+        width: 50%;
+    }
 	.carousel-item{
         @include tamaños(auto,auto);
         padding: 50px 0px;
@@ -25,10 +23,11 @@
 	}
 
 	@media (max-width: 576px){
-    .home{
-        min-height: auto !important;
+    .carousel-inner{
+        width: auto;
     }
+    img{
+        @include tamaños(370px,500px);
     }
-	
 	}	
 }
