@@ -10,7 +10,7 @@
 	}
 
 	.carousel-item{
-        @include tamaños(auto,auto);
+        @include tamaños(100%,100%);
         padding: 50px 0px;
         display: flex;
 	}
