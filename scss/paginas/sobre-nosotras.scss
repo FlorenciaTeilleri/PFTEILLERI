@@ -13,8 +13,6 @@
     p{
         padding: 20px;
         width: auto;
-        text-align:center;
-        font-size: 30px;
         color: $color-secundario;
     }
     
@@ -24,11 +22,17 @@
         align-items:flex-start;
     }
 
+    .divP{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     img{
         border-radius:100px;
         padding: 20px;
         padding: none;
-        @include tamaños(500px, 600px);
+        @include tamaños(450px, 550px);
     }
 
 
