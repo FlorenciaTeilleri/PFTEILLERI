@@ -216,11 +216,8 @@ header {
 
 .mainSobreNosotras {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
-  padding: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: auto; }
+  flex-direction: column; }
   .mainSobreNosotras .tituloSN {
     text-align: center;
     padding: 20px;
@@ -231,11 +228,16 @@ header {
     text-align: center;
     font-size: 30px;
     color: white; }
+  .mainSobreNosotras .divImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
   .mainSobreNosotras img {
     border-radius: 100px;
+    padding: 20px;
     padding: none;
-    width: 400px;
-    height: 300px; }
+    width: 500px;
+    height: 600px; }
   @media (max-width: 576px) {
     .mainSobreNosotras .tituloSN {
       font-size: 20px !important;
@@ -247,8 +249,8 @@ header {
     .mainSobreNosotras img {
       border-radius: 50px;
       justify-content: center;
-      width: 320px !important;
-      height: 320px !important; } }
+      width: 380px !important;
+      height: 450px !important; } }
 
 .main-turnos {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
@@ -302,7 +304,7 @@ header {
       font-size: 20px;
       padding: none; }
     .main-turnos .columnasTurnos {
-      width: 350px;
+      width: 360px;
       padding: 10px; }
     .main-turnos .pregunta {
       font-size: 15px; }
