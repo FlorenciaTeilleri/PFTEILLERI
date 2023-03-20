@@ -224,22 +224,16 @@ header {
     color: white; }
   .mainSobreNosotras p {
     padding: 20px;
-    width: auto;
     color: white; }
   .mainSobreNosotras .divImg {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
-  .mainSobreNosotras .divP {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
   .mainSobreNosotras img {
     border-radius: 100px;
     padding: 20px;
-    padding: none;
-    width: 450px;
-    height: 550px; }
+    width: 320px;
+    height: 450px; }
   @media (max-width: 576px) {
     .mainSobreNosotras .tituloSN {
       font-size: 20px !important;
