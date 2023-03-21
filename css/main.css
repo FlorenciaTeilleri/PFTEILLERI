@@ -328,6 +328,10 @@ footer {
   flex-direction: column; }
   footer h5 {
     color: #F40076; }
+  footer .cp {
+    padding: 20px 0px 0px 0px;
+    font-size: 15px;
+    color: white; }
   footer .redes-sociales {
     display: flex;
     flex-direction: column;

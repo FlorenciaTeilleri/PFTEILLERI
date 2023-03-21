@@ -10,7 +10,12 @@ footer{
 	h5{
         color: $color-primario; 
 	}
-
+    
+    .cp{
+        padding: 20px 0px 0px 0px;
+        font-size: 15px;
+        color: $color-secundario;
+    }
     .redes-sociales{
         display: flex;
         flex-direction: column;

@@ -74,8 +74,8 @@ header{
     }
 
     .bloque-uno__logo{
-        width: 80px !important;
-        height: 80px !important;
+        @include tamaños(80px !important, 80px !important)
+
     }
     
     
