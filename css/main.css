@@ -118,23 +118,25 @@ header {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
   display: flex;
   flex-direction: column; }
-  .main-servicios #tituloServicios {
+  .main-servicios div {
     display: flex;
-    text-align: center;
-    padding: 20px;
-    color: white; }
-  .main-servicios p {
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    color: white; }
-  .main-servicios img {
-    border-radius: 100px;
-    padding: 20px;
-    width: 380px;
-    height: 400px; }
-    .main-servicios img:hover {
-      transform: translateY(-6px); }
+    align-items: center; }
+    .main-servicios div #tituloServicios {
+      display: flex;
+      text-align: center;
+      padding: 20px;
+      color: white; }
+    .main-servicios div p {
+      padding: 20px;
+      width: 100%;
+      color: white; }
+    .main-servicios div img {
+      border-radius: 100px;
+      padding: 20px;
+      width: 380px;
+      height: 400px; }
+      .main-servicios div img:hover {
+        transform: translateY(-6px); }
   @media (max-width: 576px) {
     .main-servicios #tituloServicios {
       font-size: 20px !important; }
@@ -218,35 +220,35 @@ header {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
   display: flex;
   flex-direction: column; }
-  .mainSobreNosotras .tituloSN {
-    text-align: center;
-    padding: 20px;
-    color: white; }
-  .mainSobreNosotras p {
-    padding: 20px;
-    color: white; }
-  .mainSobreNosotras .divImg {
+  .mainSobreNosotras div {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start; }
-  .mainSobreNosotras img {
-    border-radius: 100px;
-    padding: 20px;
-    width: 320px;
-    height: 450px; }
+    align-items: center; }
+    .mainSobreNosotras div .tituloSN {
+      text-align: center;
+      padding: 20px;
+      color: white; }
+    .mainSobreNosotras div p {
+      padding: 20px;
+      color: white; }
+    .mainSobreNosotras div img {
+      border-radius: 100px;
+      padding: 20px;
+      width: 420px;
+      height: 550px; }
   @media (max-width: 576px) {
     .mainSobreNosotras .tituloSN {
       font-size: 20px !important;
       padding: none; }
     .mainSobreNosotras p {
       padding: 10px;
+      text-align: center;
       width: auto;
       font-size: 16px; }
     .mainSobreNosotras img {
       border-radius: 50px;
       justify-content: center;
       width: 380px !important;
-      height: 450px !important; } }
+      height: 500px !important; } }
 
 .main-turnos {
   background-image: radial-gradient(circle, #e18ad4, #eeb1d5, #efc7e5);
