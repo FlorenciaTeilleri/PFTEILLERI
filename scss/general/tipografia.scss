@@ -5,8 +5,8 @@
     font-weight: bold;
 }
 
-h1{
-    color: $color-secundario;
+h1, h2{
+    color: $color-secundario !important;
 }
 a.href{
     color:$color-secundario;
