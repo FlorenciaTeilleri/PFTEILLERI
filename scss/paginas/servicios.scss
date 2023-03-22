@@ -25,27 +25,26 @@
                 padding: 20px;
                 @include tamaños(380px,400px);
                         &:hover{
-                        transform: translateY(-6px);
+                                transform: translateY(-6px);
                         }
                 }
         }
 
 	@media (max-width: 576px){
 	
-	#tituloServicios{
-        font-size: 20px !important;
-        }
+                #tituloServicios{
+                        font-size: 20px !important;
+                }
 
-	.main-servicios img{
-        padding: 0%;
-        width: 200px !important;
-        height: 300px !important;
-        }
+                .main-servicios img{
+                        padding: 0%;
+                        @include tamaños(200px !important, 300px !important);
+                }
 
-	p{
-        padding: 10%;
-        font-size: 15px !important;
-        text-align: center;
-        }
+                p{
+                        padding: 10%;
+                        font-size: 15px !important;
+                        text-align: center;
+                }
 	}
 }

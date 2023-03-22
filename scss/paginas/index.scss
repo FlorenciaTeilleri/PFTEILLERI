@@ -23,11 +23,12 @@
 	}
 
 	@media (max-width: 576px){
-    .carousel-inner{
-        width: auto;
-    }
-    img{
-        @include tamaños(370px,500px);
-    }
+        .carousel-inner{
+            width: auto;
+        }
+        
+        img{
+            @include tamaños(370px,500px);
+        }
 	}	
 }

@@ -10,88 +10,87 @@ min-height: auto;
         align-items: center;
         display: flex;
 	
-	#tituloTurnos{
-        text-align: center;
-        padding: 20px;
-        color: $color-secundario;
-        display: inline; 
-        }
+                #tituloTurnos{
+                        text-align: center;
+                        padding: 20px;
+                        color: $color-secundario;
+                        display: inline; 
+                }
 
-	h4{
-        text-align: justify;
-        padding: 10px;
-        justify-content: center;
-        color: $color-secundario;
-	}
+                h4{
+                        text-align: justify;
+                        padding: 10px;
+                        justify-content: center;
+                        color: $color-secundario;
+                }
 
-        .form-control{
-        text-align:center;
-        padding: 6px 12px;
-        color:#F40076 !important;
-        border: 4px solid $color-terciario;
-        border-radius: 10px ;
-        margin: $margin * 2;
-        width: 100%;
+                .form-control{
+                        text-align:center;
+                        padding: 6px 12px;
+                        color:#F40076 !important;
+                        border: 4px solid $color-terciario;
+                        border-radius: 10px ;
+                        margin: $margin * 2;
+                        width: 100%;
 		}	
 
-	#botonEnviar{
-        text-align: center;
-        padding: 20px 60px;
-        color: $color-primario;
-        border: 4px solid $color-terciario;
-        border-radius: 10px;
-        margin: $margin * 2;
+                #botonEnviar{
+                        text-align: center;
+                        padding: 20px 60px;
+                        color: $color-primario;
+                        border: 4px solid $color-terciario;
+                        border-radius: 10px;
+                        margin: $margin * 2;
 		}
 
-	.opcDesplegables{
-        text-align:justify;
-        padding: 6px 12px;
-        color:$color-primario;
-        border: 4px solid $color-terciario;
-        border-radius: 10px ;
-        margin: $margin * 2;
-        width: 100%;
-	}
-
-	#radioBut{
-        text-align: center; 
-        justify-content: center;
-        color: $color-primario;
-	}
-
-}
-
-@media (max-width: 576px){
-        #tituloTurnos{
-        font-size: 20px;
-        padding: none;
-	}
-	
-	.columnasTurnos{
-        width: 360px;
-        padding: $margin;
+                .opcDesplegables{
+                        text-align:justify;
+                        padding: 6px 12px;
+                        color:$color-primario;
+                        border: 4px solid $color-terciario;
+                        border-radius: 10px ;
+                        margin: $margin * 2;
+                        width: 100%;
+                }
+        
+                #radioBut{
+                        text-align: center; 
+                        justify-content: center;
+                        color: $color-primario;
+                }
         }
 
-	.pregunta{
-        font-size: 15px;
-	}
+        @media (max-width: 576px){
+                #tituloTurnos{
+                        font-size: 20px;
+                        padding: none;
+                }
+	
+                .columnasTurnos{
+                        width: 360px;
+                        padding: $margin;
+                }
 
-        .form-control{
-        margin: $margin;
-	}
+                .pregunta{
+                        font-size: 15px;
+                }
 
-	#botonEnviar{
-        font-size: 15px;
-        @include tamaños(150px,50px);
-        padding: 10px !important;
-	}
+                .form-control{
+                        margin: $margin;
+                }
 
-	.opcDesplegables{
-        margin: $margin;
-	}
+                #botonEnviar{
+                        font-size: 15px;
+                        @include tamaños(150px,50px);
+                        padding: 10px !important;
+                }
 
-	#radioBut input{
-        width: 50px;
-	}
-}
+                .opcDesplegables{
+                        margin: $margin;
+                }
+
+                #radioBut input{
+                        width: 50px;
+                }
+        }
 }

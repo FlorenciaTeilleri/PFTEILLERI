@@ -22,27 +22,26 @@
             border-radius:100px;
             padding: 20px;
             @include tamaños(420px, 550px);
+        }
     }
-    }
-    
 
+    @media (max-width: 576px){
+        .tituloSN{
+            font-size: 20px !important;
+            padding: none;
+        }
 
-@media (max-width: 576px){
-    .tituloSN{
-        font-size: 20px !important;
-        padding: none;
-    }
-    p{
-        padding: 10px;
-        text-align: center;
-        width: auto;
-        font-size: 16px;
-    }
-    img{
-        border-radius: 50px;
-        justify-content: center;
-        @include tamaños(380px!important, 500px!important);
-    }
-}
+        p{
+            padding: 10px;
+            text-align: center;
+            width: auto;
+            font-size: 16px;
+        }
 
+        img{
+            border-radius: 50px;
+            justify-content: center;
+            @include tamaños(380px!important, 500px!important);
+        }
+    }
 }
